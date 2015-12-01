@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:export-ydpi="90"
+   inkscape:export-xdpi="90"
+   inkscape:export-filename="/home/addisu/Dropbox/EAN/ssmv_turtle/assets/bg.png"
+   sodipodi:docname="bg.svg"
+   inkscape:version="0.48.4 r9939"
+   version="1.1"
+   id="svg2"
+   height="899.9104"
+   width="2100.1206">
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient3003">
+      <stop
+         style="stop-color:#c2c2c2;stop-opacity:1;"
+         offset="0"
+         id="stop3005" />
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="1"
+         id="stop3007" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient2995">
+      <stop
+         style="stop-color:#4d4d4d;stop-opacity:1;"
+         offset="0"
+         id="stop2997" />
+      <stop
+         style="stop-color:#4d4d4d;stop-opacity:0;"
+         offset="1"
+         id="stop2999" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3003"
+       id="radialGradient3009"
+       cx="2908.8499"
+       cy="871.11176"
+       fx="2908.8499"
+       fy="871.11176"
+       r="2000.0001"
+       gradientTransform="matrix(-0.00567981,1.2630376,-1.3043107,-0.01332452,3929.3649,-2500.9465)"
+       gradientUnits="userSpaceOnUse" />
+    <filter
+       id="filter4977"
+       inkscape:label="Monochrome transparency"
+       inkscape:menu="Transparency utilities"
+       inkscape:menu-tooltip="Convert to a colorizable transparent positive or negative"
+       height="1"
+       width="1"
+       y="0"
+       x="0"
+       color-interpolation-filters="sRGB">
+      <feColorMatrix
+         id="feColorMatrix4979"
+         type="luminanceToAlpha"
+         result="fbSourceGraphic" />
+      <feFlood
+         id="feFlood4981"
+         flood-color="rgb(134,39,24)"
+         result="result1"
+         in="fbSourceGraphic"
+         flood-opacity="1" />
+      <feComposite
+         id="feComposite4983"
+         in2="fbSourceGraphic"
+         operator="out"
+         result="result2" />
+      <feComposite
+         id="feComposite4985"
+         in2="SourceGraphic"
+         operator="in" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       id="filter5034">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="81.92846"
+         id="feGaussianBlur5036" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.32"
+     inkscape:cx="1565.0607"
+     inkscape:cy="419.78074"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1535"
+     inkscape:window-height="876"
+     inkscape:window-x="65"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-2289.4432,-38.047784)">
+    <rect
+       style="fill:url(#radialGradient3009);fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.99970835000000002px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter5034)"
+       id="rect2985"
+       width="3999.0005"
+       height="2999.0002"
+       x="799.99982"
+       y="-363.7807"
+       transform="matrix(0.55015811,0,0,0.36315208,1799.3358,75.56428)" />
+  </g>
+</svg>
