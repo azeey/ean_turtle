@@ -1,4 +1,4 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="en">
 
     <head>
@@ -78,21 +78,21 @@ bot = Turtle()
                     <section>
                         <pre><code class="largeCode python">
 # Put pen down (start drawing)
-bot.pendown();
+bot.pendown()
 
 # Put pen up (don't draw)
-bot.penup();
+bot.penup()
                         </code></pre>
                     </section>
                     <section>
                         <pre><code class="largeCode python">
 # Go forward/back for "distance" pixels
-bot.forward(distance);
-bot.back(distance);
+bot.forward(distance)
+bot.back(distance)
 
 # Turn left/right by degrees
-bot.left(degrees);
-bot.right(degrees);
+bot.left(degrees)
+bot.right(degrees)
                         </code></pre>
                     </section>
                 </section>
@@ -101,7 +101,7 @@ bot.right(degrees);
                     <section>
                         <h2>Circle</h2>
                         <pre><code class="largeCode python">
-bot.circle(radius, extent);
+bot.circle(radius, extent)
                         </code></pre>
                     </section>
                     <section>
@@ -110,48 +110,104 @@ bot.circle(radius, extent);
                 </section>
                 <section>
                     <h2>What can we do with such simple commands?</h2>
-                    <h1>A Lot</h1>
+                    <h1 class="fragment" data-fragment-index=0>A Lot</h1>
 
                 </section>
                 <section>
                     <h2>For Loops</h2>
                     <section>
                         <pre><code class="largeCode python">
-for loops
+# Do 'action' x times
+for i in range(x):
+    action
                         </code></pre>
                     </section>
                     <section>
-<iframe src="https://trinket.io/embed/python/0f74904d26" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://trinket.io/embed/python/db90af213b" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+                    </section>
+                    <section>
+<iframe src="https://trinket.io/embed/python/a9c62b8ca6" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+                    </section>
+                    <section>
+<iframe src="https://trinket.io/embed/python/0052c34271" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+                    </section>
+                </section>
+                <section>
+                    <h2>Variables</h2>
+                    <section>
+                        <pre><code class="largeCode python">
+# Set x to 8
+x = 8
+                        </code></pre>
+                    </section>
+                    <section>
+<iframe src="https://trinket.io/embed/python/844d129a68" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+                    </section>
+                    <section>
+<iframe src="https://trinket.io/embed/python/2c38511fc6" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
                     </section>
                 </section>
 
                 <section>
                     <h2>Functions</h2>
-<iframe src="https://trinket.io/embed/python/d5fd3a6dc0" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+                    <section>
+                        <pre><code class="largeCode python">
+# Define function() to do 'action'
+def function():
+    action
+                        </code></pre>
+                        <pre><code class="largeCode python">
+# Define function() to do 'action' 
+# using 'variable'
+def function(variable):
+    action
+                        </code></pre>
+                    </section>
+                    <section>
+<iframe src="https://trinket.io/embed/python/9a900439c7" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+                    </section>
+                    <section>
+<iframe src="https://trinket.io/embed/python/9ab10ea753" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+                    </section>
                 </section>
 
                 <section>
                     <h2>Recursion</h2>
-<iframe src="https://trinket.io/embed/python/8dfc4b896a" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+                    <section>
+                        <pre><code class="largeCode python">
+# Define function() to perform 'action'
+# using recursion
+def function(initial_value):
+    if(base_case):
+        base action
+    else:
+        action
+        function(new value)
+                        </code></pre>
+                    </section>
+                    <section>
+<iframe src="https://trinket.io/embed/python/da41014115" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+                    </section>
+                    <section>
+<iframe src="https://trinket.io/embed/python/ec4bba19ce" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+                    </section>
                 </section>
-
                 <section>
-                <pre><code class="largeCode python">
-# Put pen down (start drawing)
-bot.pendown();
+                <h3>Available commands</h3>
+                <pre><code class="largeCode python" style="max-height: 100%"># Put pen down (start drawing)
+bot.pendown()
 
 # Put pen up (don't draw)
-bot.penup();
+bot.penup()
 
 # Go forward/back for "distance" pixels
-bot.forward(distance);
-bot.back(distance);
+bot.forward(distance)
+bot.back(distance)
 
 # Turn left/right by degrees
-bot.left(degrees);
-bot.right(degrees);
-bot.circle(radius, extent);
-                    </code></pre>
+bot.left(degrees)
+bot.right(degrees)
+bot.circle(radius, extent) </code></pre>
                 </section>
                 <section>
                     <h2>Trinket</h2>
